@@ -19,6 +19,7 @@ It was with that in mind that I installed Quarto to see if I could get it to run
     2. DataFrames. I want my tables to update.
     3. Graphs/figures. I want to be able to embed my updated matplotlib or Plotly figures.
 2. I want to be able to generate documents in Word, PDF, or HTML. 
+3. I don't want any code blocks to show in the documents. 
 
 ### Some Things Came Up When I Was Getting Started (Or Are Still Coming Up)
 
