@@ -23,7 +23,7 @@ It was with that in mind that I installed Quarto to see if I could get it to run
 
 ### Some Things Came Up When I Was Getting Started (Or Are Still Coming Up)
 
-Getting started with Quarto was somewhat bumpy in part due to my own lack of reading the documentation, but also because things break with not particularly useful error messages (or no error messages at all). 
+Getting started with Quarto was somewhat bumpy in part due to my own lack of reading the documentation, but also because things break with not particularly useful error messages (or no error messages at all). But I was ultimately very happy with the results in terms of how the documents looked, once it got working. 
 
 1. If you want to be able to execute Quarto from the command line using .qmd files  (which is what will contain both your code snippets and your formatting) which contain Python, you need to install [this](https://quarto.org/docs/get-started/). If you want to be able to call Quarto from within Python, you need to also install the [Quarto package on PyPI](https://pypi.org/project/quarto/). If you just install the Quarto package, you will not be able to do anything. 
 2. Use a virtual environment. There are a lot of dependencies. When I initially tried to run Quarto, I was prompted to install additional libraries beyond the ones listed [here](https://quarto.org/docs/projects/virtual-environments.html). I froze my dependencies and you see them in my requirements.txt file.
