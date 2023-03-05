@@ -1,3 +1,5 @@
+### Update: the official, correct, non-hacky way to pass parameters is just via passing parameters: https://github.com/quarto-dev/quarto-python/blob/main/quarto/render.py
+
 ## **Using Quarto for Python: Getting it Installed, Running it From Within Python Using the Quarto Library, and A Hacky Way of Modifying the QMD File From Within Python to ‘Pass’ It Parameters**
 
 ### I’m Using Quarto Because I Don’t Like Updating Documents Manually or Building From Scratch With Existing Python Libraries
