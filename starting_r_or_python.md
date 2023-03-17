@@ -1,3 +1,4 @@
+##### Prompt: Can you write me a chapter for someone who is brand-new to Python or R and is coming from using tools like Excel, Stata, or SAS. This should be an introduction to how to think about the capabilities of a language like R or Python, how to program using functions rather than procedurally, and how to get started with good coding practices like git, virtual environments, coding standards, and documentations. This should describe everything in plain language and describe in detail the benefits of these practices in terms of accuracy, transparency, and repeatability, and why those things will make their work more useful to their organization.
 
 # **Chapter 1: Transitioning from Excel, Stata, or SAS to Python or R**
 
