@@ -76,7 +76,7 @@ When writing code, it's important to avoid creating functions with multiple leve
 ### Tips for avoiding long functions:
 
 1. **Divide and conquer:** If a function is doing too much, consider splitting it into smaller, more focused functions. Each function should have a single responsibility, making it easier to understand and test.
-2. **Reuse code:** Look for opportunities to reuse existing functions, rather than duplicating code. If you find yourself repeating similar logic in multiple places, extract it into a separate function that can be called as needed.
+3. **Leverage dictionaries, lists, or tables for efficient data transformation:** When dealing with complex data transformations, such as mapping one set of values to another, it's more efficient to use an object like a list in R or a dictionary in Python rather than lengthy if/then statements. Create a separate function that returns a mapping object (list or dictionary) representing the relationship between the values. Then, use this function and apply the mapping to the relevant column in your data frame or table. This approach simplifies the code, making it more readable and maintainable.
 
 By following these best practices, you'll create code that's more readable, maintainable, and easier to debug, ultimately leading to higher-quality programs.
 
