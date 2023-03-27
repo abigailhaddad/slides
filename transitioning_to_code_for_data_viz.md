@@ -9,7 +9,7 @@ date: "2023-03-26"
 
 - GPT reduces the barriers to entry for code-based data visualization
 - Assists users at every step, from data cleaning to app development
-- Accelerates the learning process by providing examples, guidance, and insights
+- Accelerates the learning process by providing code, but also it can explain what it's doing to you
 
 ---
 
