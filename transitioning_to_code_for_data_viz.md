@@ -36,6 +36,7 @@ date: "2023-03-26"
 - GPT can generate code to import, filter, and preprocess data for your specific visualization needs
 - Doing this via coding lets you scale with fewer errors -- for instance, if we have many files with similar structure, we can read in and aggregate them all at once
 - This also makes it easier to update your visualizations when your data updates in an automated way (for instance, by having your figure titles reflect the most recent data)
+- [slide with example of prompts/responses]
 ---
 
 # Generating Code for Graphs from Descriptions
@@ -44,6 +45,7 @@ date: "2023-03-26"
 - GPT outputs code for the specified visualization using libraries like matplotlib, seaborn, or plotly/dash
 - Example: "Create a line chart showing the monthly revenue of an online store from January 2022 to December 2022"
 - You can customize your formatting extensively, although it may not get everything correct immediately
+- [slide with example of prompts/responses]
 
 ---
 
@@ -52,6 +54,7 @@ date: "2023-03-26"
 - GPT writes high-quality code and explains its functionality, helping users learn best practices
 - GPT assists with debugging by interpreting error messages and suggesting solutions
 - Shortens the process of fixing issues and improves code quality
+- [slide with example of prompts/responses]
 
 ---
 
@@ -59,6 +62,7 @@ date: "2023-03-26"
 
 - GPT can also reduce the learning curve/write you code for creating interactive dashboards
 - It can write you code, but also walk you through processes like where and how to deploy an app
+- [slide with example of prompts/responses]
 
 ---
 
