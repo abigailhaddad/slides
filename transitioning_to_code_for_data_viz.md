@@ -16,9 +16,9 @@ date: "2023-03-26"
 # Why Transition to Coding for Data Visualization?
 
 - Reusability: Code-based solutions make it easier to reuse and repurpose code for visualizations, saving time and effort. Example: Create a custom library/module for your organization's preferred graph style, easily share it, and update it as needed.
-- Version control: Track changes and maintain a clear history of your work, facilitating collaboration and preventing data loss.
-- Transparency and documentation: Coding provides more insight into the processes behind your data cleaning and visualizations, reducing the "black box" effect. Easily write and maintain documentation to ensure clarity and maintainability of your code.
-- Separation of data and code: Keep your data and visualization code separate, making it easier to update and manage
+- Version control: Track changes and maintain a clear history of your work, facilitating collaboration, tracking changes, and being able to revert when you break stuff.
+- Transparency and documentation: Coding lets you and others see what you've done, reducing the "black box" effect. More trustworthy and easier to build on.
+- Separation of data and code: Keep your data and visualization code separate, making it easier to update and manage access to
 
 ---
 
@@ -34,7 +34,7 @@ date: "2023-03-26"
 # Data Cleaning and Input with GPT-generated Code
 
 - GPT can generate code to import, filter, and preprocess data for your specific visualization needs
-- Doing this via coding lets you scale with fewer errors -- for instance, if we have many files with similar structure, we can read in and aggregate them in fewer steps
+- Doing this via coding lets you scale with fewer errors -- for instance, if we have many files with similar structure, we can read in and aggregate them all at once
 - This also makes it easier to update your visualizations when your data updates in an automated way (for instance, by having your figure titles reflect the most recent data)
 ---
 
