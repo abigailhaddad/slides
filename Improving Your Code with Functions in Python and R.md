@@ -199,6 +199,23 @@ def test_add():
 
 By incorporating unit tests into your development process, you can create code that's more reliable, maintainable, and easier to understand. While these aren't likely to be part of your coding process for all of the code you write, they're a nice tool to have available, especially if you want to share your code in the form of a package or module for others to use. 
 
+### Effectively Using GPT to Restructure Code and Follow Best Practices Around Functions
+
+GPT, or Generative Pre-trained Transformer, is a powerful AI model that can help you restructure your code to adhere to best practices around functions. By providing GPT with your code or even descriptions of the desired functionality, it can generate suggestions to enhance your code's quality and readability.
+
+Here's how to use GPT effectively for this purpose:
+
+1. **Be specific about your requirements:** Request GPT to improve your code by adhering to best practices, such as adding function-level documentation, refactoring for readability, ensuring proper use of functions, and having a 'main' function to run your code (if applicable to your project).
+
+2. **Refine your request for better results:** If the initial output doesn't fully meet your expectations, continue to refine your request based on your specific needs. For example, you can ask GPT to divide your functions further into smaller, more focused functions that are easier to maintain and understand.
+
+3. **Iterate and troubleshoot with GPT:** If you encounter issues or errors, share the complete error messages with GPT and seek assistance in debugging the problem.
+
+4. **Leverage GPT to promote better coding practices:** GPT can also help you write function- and program-level documentation, such as a README markdown file for GitHub, or create test cases. By significantly reducing the time and effort required for these tasks, you can adopt better coding practices with minimal overhead.
+
+By following these strategies, you can make the most of GPT's capabilities and improve your code's quality, readability, and maintainability.
+
+
 ## Conclusion
 
 User-defined functions form the foundation of Python and R, offering a significant advantage when writing code in these languages. While there is an initial learning curve when adopting this approach, especially if you come from a more procedural programming background, the benefits are really significant. When you look back on code you've written in the past, code that's structured this way is code you're more 
