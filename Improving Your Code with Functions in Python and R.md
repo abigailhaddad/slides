@@ -1,5 +1,19 @@
 # Improving Your Code with Functions in Python and R
 
+- [Improving Your Code with Functions in Python and R](#improving-your-code-with-functions-in-python-and-r)
+  * [Introduction](#introduction)
+  * [Benefits of Using Functions](#benefits-of-using-functions)
+  * [Structuring a Function](#structuring-a-function)
+  * [Avoiding Multiple Levels of Indentation and Long Functions](#avoiding-multiple-levels-of-indentation-and-long-functions)
+    + [Tips for reducing indentation levels:](#tips-for-reducing-indentation-levels)
+    + [Tips for avoiding long functions:](#tips-for-avoiding-long-functions)
+  * [Documenting a Function](#documenting-a-function)
+  * [Structuring a Program with a Main Function](#structuring-a-program-with-a-main-function)
+  * [Unit Testing with Functions](#unit-testing-with-functions)
+  * [Effectively Using GPT to Restructure Code and Follow Best Practices Around Functions](#effectively-using-gpt-to-restructure-code-and-follow-best-practices-around-functions)
+  * [Conclusion](#conclusion)
+
+
 ## Introduction
 
 Functions are pieces of code that take inputs and return outputs, much like mathematical functions. If you're coming from a more procedural programming background, where you think of code as a series of steps executed in a sequence, using functions in Python and R may represent a significant conceptual shift. However, many of the benefits of these languages come from adopting this approach, which emphasizes modularity, reusability, and readability. In this guide, we will discuss how using functions can improve your code in Python and R.
@@ -230,10 +244,3 @@ If you'd like to learn more about using functions effectively in Python and R, c
 2. R:
     - [R documentation on functions](https://cran.r-project.org/doc/manuals/r-release/R-intro.html#Writing-your-own-functions)
     - [R for Data Science: Functions](https://r4ds.had.co.nz/functions.html)
-
-
-
-
-
-
-    
