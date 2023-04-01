@@ -36,7 +36,21 @@ date: "2023-03-26"
 - GPT can generate code to import, filter, and preprocess data for your specific visualization needs
 - Doing this via coding lets you scale with fewer errors -- for instance, if we have many files with similar structure, we can read in and aggregate them all at once
 - This also makes it easier to update your visualizations when your data updates in an automated way (for instance, by having your figure titles reflect the most recent data)
-- [slide with example of prompts/responses]
+
+---
+
+# Example Prompting: Data Cleaning and Input
+
+- "I am going to ask for your help writing R code. I am new to writing in R, but I want to do a good job. I want to have code that is documented, in functions, conforms to R coding standards. I want to write code that Hadley Wickham would approve of. I also want to you explain to me what it's actually doing so I can learn from it. Let's start. I want to automate downloading this file, unzipping it, and putting it into a dataframe or table or whatever: https://datasets.imdbws.com/name.basics.tsv.gz"
+- "thanks. I want to generate a table with this data. this is how it's structured. name.basics.tsv.gz – Contains the following information for names:
+nconst (string) - alphanumeric unique identifier of the name/person
+primaryName (string)– name by which the person is most often credited
+birthYear – in YYYY format
+deathYear – in YYYY format if applicable, else '\N'
+primaryProfession (array of strings)– the top-3 professions of the person
+knownForTitles (array of tconsts) – titles the person is known for ; I want to pull first names out of the nconst field (I guess by splitting it and taking the first part?), put those in a field called "firstName", and then I want to create a new table/dataframe that aggregates to get counts of each firstName"
+- "this is taking a long time to run. is there a faster way? like the equivalent of "apply" in python?"
+
 ---
 
 # Generating Code for Graphs from Descriptions
@@ -45,16 +59,29 @@ date: "2023-03-26"
 - GPT outputs code for the specified visualization using libraries like matplotlib, seaborn, or plotly/dash
 - Example: "Create a line chart showing the monthly revenue of an online store from January 2022 to December 2022"
 - You can customize your formatting extensively, although it may not get everything correct immediately
-- [slide with example of prompts/responses]
 
 ---
 
+# Example Prompting: Graphs
+
+- "can you suggest some graphs for showing the top names in terms of counts, and then write me code for them?"
+- "I want to make some formatting changes. I want the number labels to either be formatted with commas, or if there's some automated way that it can look at the numbers and determine a good unit -- like "thousands" or "millions", that would be cool. I'd also like times new roman for the whole thing"
+- "15: In grid.Call(C_textBounds, as.graphicsAnnot(x$label),  ... : font family not found in Windows font database"
+- [picture of output]
+
+---
 # Learning and Debugging with GPT
 
 - GPT writes high-quality code and explains its functionality, helping users learn best practices
 - GPT assists with debugging by interpreting error messages and suggesting solutions
 - Shortens the process of fixing issues and improves code quality
-- [slide with example of prompts/responses]
+
+---
+
+# Example Prompting: Learning and Debugging
+
+- "great. now I want a graph showing the most popular female name by birthYear. Can you suggest some different formats?"
+- "analyze_name_basics(name_basics_data, top_n, top_n_women), Error in arrange(., desc(count)) : object 'first_name_counts' not found"
 
 ---
 
