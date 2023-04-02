@@ -1,4 +1,4 @@
-# Improving Your Code with Functions in Python and R
+# Improving Your Code with Functions in Python and R: What to Do and How Large Language Models Can Help
 
 - [Improving Your Code with Functions in Python and R](#improving-your-code-with-functions-in-python-and-r)
   * [Introduction](#introduction)
@@ -10,13 +10,15 @@
   * [Documenting a Function](#documenting-a-function)
   * [Structuring a Program with a Main Function](#structuring-a-program-with-a-main-function)
   * [Unit Testing with Functions](#unit-testing-with-functions)
-  * [Effectively Using GPT to Restructure Code and Follow Best Practices Around Functions](#effectively-using-gpt-to-restructure-code-and-follow-best-practices-around-functions)
+  * [Effectively Using GPT to Restructure Code and Follow Best Practices Around Functions](#effectively-using-large-language-models)
   * [Conclusion](#conclusion)
 
 
 ## Introduction
 
-Functions are pieces of code that take inputs and return outputs, much like mathematical functions. If you're coming from a more procedural programming background, where you think of code as a series of steps executed in a sequence, using functions in Python and R may represent a significant conceptual shift. However, many of the benefits of these languages come from adopting this approach, which emphasizes modularity, reusability, and readability. In this guide, we will discuss how using functions can improve your code in Python and R.
+Functions are pieces of code that take inputs and return outputs, much like mathematical functions. If you're coming from a more procedural programming background, where you think of code as a series of steps executed in a sequence, using functions in Python and R may represent a significant conceptual shift. However, many of the benefits of these languages come from adopting this approach, which emphasizes modularity, reusability, and readability. In this guide, we will discuss how using functions can improve your code in Python and R. 
+
+At the end, we'll also discuss using Large Language Models like GPT to help you adopt these practices.
 
 ## Benefits of Using Functions
 
@@ -213,22 +215,22 @@ def test_add():
 
 By incorporating unit tests into your development process, you can create code that's more reliable, maintainable, and easier to understand. While these aren't likely to be part of your coding process for all of the code you write, they're a nice tool to have available, especially if you want to share your code in the form of a package or module for others to use. 
 
-### Effectively Using GPT to Restructure Code and Follow Best Practices Around Functions
+### Effectively Using Large Language Models
 
-GPT, or Generative Pre-trained Transformer, is a powerful AI model that can help you restructure your code to adhere to best practices around functions. By providing GPT with your code or even descriptions of the desired functionality, it can generate suggestions to enhance your code's quality and readability.
+Large Language models can be a big help with restructuring your code and following best practices. GPT or the Generative Pre-trained Transformer, is one of these models. Bard, from Google, is another one. 
 
-Here's how to use GPT effectively for this purpose:
+The available tools and versions are changing rapidly, but here are some of the kinds of tasks you can ask for help with:
 
-1. **Be specific about your requirements:** Request GPT to improve your code by adhering to best practices, such as adding function-level documentation, refactoring for readability, ensuring proper use of functions, and having a 'main' function to run your code (if applicable to your project).
+1. **General code improvements if you're not sure what you want**. You can ask GPT to help you reorganize your code to be more efficient, more readable, to use best practices, etc. I've tried asking it write R code like it's [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham) or Python code like [Brett Slatkin](https://research.google/people/BrettSlatkin/); I don't know that this is more effective than just asking it to write good code, but I've definitely gotten different responses from it.
+2. **Specific code improvements if you do know what you want.** You can ask it to help you break up bigger functions into smaller ones. You can ask it for help refactoring loops, or putting all of your functions in a main function.
+3. **Writing function-level documentation**: It can read your code and make guesses about what your functions are doing and what format the inputs and outputs are in.
+4. **Writing test cases**: It can read your code and generate test cases.
 
-2. **Refine your request for better results:** If the initial output doesn't fully meet your expectations, continue to refine your request based on your specific needs. For example, you can ask GPT to divide your functions further into smaller, more focused functions that are easier to maintain and understand.
+This doesn't obviate the need to review what it's writing for you and understand each line -- and you can also ask it to explain each change it's making if you don't understand something.
 
-3. **Iterate and troubleshoot with GPT:** If you encounter issues or errors, share the complete error messages with GPT and seek assistance in debugging the problem.
+It also gets things wrong! I asked it to help with restructuring so that I had fewer levels of indentation and it not did -- but when I give it more explicit, detailed instructions like "help me break these lines into their own function and use 'apply'", or "write a list comprehension for this loop", it's more likely to get it correct. 
 
-4. **Leverage GPT to promote better coding practices:** GPT can also help you write function- and program-level documentation, such as a README markdown file for GitHub, or create test cases. By significantly reducing the time and effort required for these tasks, you can adopt better coding practices with minimal overhead.
-
-By following these strategies, you can make the most of GPT's capabilities and improve your code's quality, readability, and maintainability.
-
+But even with these limitations, I've found this to be a huge help, particularly in terms of 'best practices'-type tasks like documentation and test cases that I might otherwise not get to, especially when I'm first coding something.
 
 ## Conclusion
 
